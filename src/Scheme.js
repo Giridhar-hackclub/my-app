@@ -26,7 +26,7 @@ export default function Scheme() {
         <Color
           colors={colors}
         />
-        <button className="btn" onClick={change}>Change! : {count}</button>
+        <button className="btn" onClick={change}>Change!</button>
     </div>
   )
 }

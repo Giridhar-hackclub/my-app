@@ -9,7 +9,7 @@ export default function Color({ colors = [] }) {
             key={i}
             className="color"
             style={{ background: color }}
-          >{color}</div>
+          ><span className="name">{color}</span></div>
       ))}
     </div>
   )
